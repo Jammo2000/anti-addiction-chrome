@@ -13,6 +13,9 @@
       margin-top: 2px;
       width: 100%;
     }
+    input[type="checkbox"]{
+       width:auto;
+    }
     #save {
       margin-top: 20px;
       font-size: 120%;
@@ -42,13 +45,14 @@
   </fieldset>
 
   <fieldset>
-    <input type="checkbox" id="nuclear" />
-    Nuclear option: greyscale the Internet
+    Nuclear option: greyscale the Internet: <input type="checkbox" id="nuclear" />
   </fieldset>
 
   <fieldset>
+<label for="stocks">
+    Hide stock prices from Google results: 
     <input type="checkbox" id="stocks" />
-    Hide stock prices from Google results
+</label>
   </fieldset>
 
   <div style="text-align: center; font-weight: bold;">
