@@ -2,6 +2,7 @@
    "content_scripts": [{
       "matches": ["<all_urls>"],
       "js": ["js/content.js"],
+      "run": "document_start"
    }],
    "description": "Regain focus so that you can enjoy the important things in life. Fully open source, and no analytics or tracking.",
    "icons": {
