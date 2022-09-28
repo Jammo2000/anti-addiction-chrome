@@ -36,7 +36,7 @@ function init(settings) {
       text-align: center;
       z-index: 2147483647;
     `;
-    document.body.appendChild(div);
+    document.documentElement.appendChild(div);
 
     setTimeout(() => {
       var elem = document.querySelector('#antiaddiction');
